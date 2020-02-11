@@ -17,6 +17,7 @@ export function Card(props) {
 					up the bulk of the cards content.
 				</p>
 				<a href={props.imgUrl} className={props.buttonColor}>
+					{/* className={"btn btn-" + props.buttonColor}> */}
 					Go somewhere
 				</a>
 			</div>

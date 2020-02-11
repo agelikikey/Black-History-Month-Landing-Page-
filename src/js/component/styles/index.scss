@@ -1,8 +1,17 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-background {
-    background: url("https://www.youtube.com/watch?v=Qyiautg41h8");
+
+
+.card-img-top {
+    width: 100%;
+    height: 30vw;
+    object-fit: cover;
 }
+
+.bg-video {
+  background-video: url("https://www.youtube.com/watch?v=Qyiautg41h8")
+}
+
 /* 
 
     You can write your own styles here...
